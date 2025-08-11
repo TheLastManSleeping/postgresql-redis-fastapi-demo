@@ -38,8 +38,7 @@
 
 1.  Клонируйте репозиторий на ваш компьютер:
     ```bash
-    git clone [https://github.com/new](https://github.com/new)
-    cd [название папки проекта]
+    git clone https://github.com/TheLastManSleeping/postgresql-redis-fastapi-demo.git
     ```
 
 2.  Запустите все сервисы одной командой:
