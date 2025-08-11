@@ -12,7 +12,6 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 # Указываем полные пути для остальных файлов
 COPY ./fastapi_app/app /code/app
 COPY ./scripts/init_db.py /code/init_db.py
-COPY ./fastapi_app/app/sample_data.csv /code/app/sample_data.csv
 
 # Даем права на исполнение
 RUN chmod +x /code/init_db.py
